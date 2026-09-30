@@ -1,96 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Marwa Gharib Alsayed Mohamed — Software Engineer and Business Information Systems Graduate." />
-  <title>Marwa Gharib Alsayed Mohamed | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div class="background-glow glow-one"></div>
-  <div class="background-glow glow-two"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Marwa Gharib Alsayed Mohamed portfolio" />
+    <title>Marwa Gharib Alsayed Mohamed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="dark" data-lang="en">
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
 
-  <header class="topbar">
-    <a class="brand" href="#home">MG<span>.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="github-link" href="https://github.com/marwa906" target="_blank" rel="noreferrer">GitHub ↗</a>
-  </header>
+    <header class="topbar container">
+      <div class="brand-wrap">
+        <div class="brand-mark">MG</div>
+        <span>Portfolio</span>
+      </div>
 
-  <main>
-    <section class="hero container" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">BUSINESS INFORMATION SYSTEMS GRADUATE · SOFTWARE ENGINEER</p>
-        <h1>Building useful digital experiences with <span>code & creativity.</span></h1>
-        <p class="hero-text">I’m Marwa Gharib, a software engineer focused on mobile and web applications. I turn ideas into responsive, reliable products using Flutter, Firebase, JavaScript, and modern front-end technologies.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects">Explore my work <span>↓</span></a>
-          <a class="button secondary" href="mailto:marwansrallh6@gmail.com">Let's connect ↗</a>
+      <div class="controls">
+        <div class="toggle-group theme-toggle" aria-label="Theme toggle">
+          <button class="mode-btn active" data-theme-target="dark">Dark</button>
+          <button class="mode-btn" data-theme-target="light">Light</button>
         </div>
-        <div class="quick-links">
-          <a href="mailto:marwansrallh6@gmail.com">✉ Email</a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">in LinkedIn</a>
-          <a href="https://github.com/marwa906" target="_blank" rel="noreferrer">◉ GitHub</a>
+
+        <div class="toggle-group lang-toggle" aria-label="Language toggle">
+          <button class="lang-btn active" data-lang-target="en">EN</button>
+          <button class="lang-btn" data-lang-target="ar">AR</button>
         </div>
       </div>
-      <div class="hero-card">
-        <div class="status"><span></span> Available for opportunities</div>
-        <img class="profile-image" src="https://avatars.githubusercontent.com/u/190126106?v=4" alt="Marwa Gharib profile photo" />
-        <div class="card-footer"><span>Based in Egypt</span><span>2026 ↗</span></div>
-      </div>
-    </section>
+    </header>
 
-    <section class="section container" id="about">
-      <div class="section-heading"><span class="section-number">01</span><h2>About me</h2></div>
-      <div class="about-grid">
-        <div class="about-intro"><p class="large-text">I combine technical problem-solving with a strong eye for design to create products that are clear, accessible, and enjoyable to use.</p><p>As a Business Information Systems graduate, I understand both the technology behind a product and the business goals it serves. I enjoy collaborating, learning continuously, and turning complex requirements into simple experiences.</p></div>
-        <div class="focus-list"><div><span>01</span><h3>Mobile development</h3><p>Cross-platform apps with Flutter, Dart, Firebase, REST APIs, and state management.</p></div><div><span>02</span><h3>Web development</h3><p>Responsive interfaces using HTML, CSS, JavaScript, React, Next.js, and Bootstrap.</p></div><div><span>03</span><h3>Creative thinking</h3><p>Graphic design, visual storytelling, and user-focused solutions with attention to detail.</p></div></div>
-      </div>
-    </section>
+    <main class="container dashboard">
+      <section class="hero">
+        <div class="scene-card">
+          <div class="avatar-wrap">
+            <div class="ring ring-1"></div>
+            <div class="ring ring-2"></div>
+            <div class="monitor-frame">
+              <div class="monitor-screen"></div>
+              <div class="monitor-stand"></div>
+              <div class="monitor-base"></div>
+            </div>
+            <img
+              class="profile-avatar"
+              src="https://avatars.githubusercontent.com/u/190126106?v=4"
+              alt="Marwa Gharib Alsayed Mohamed"
+            />
+          </div>
+        </div>
 
-    <section class="section container" id="experience">
-      <div class="section-heading"><span class="section-number">02</span><h2>Experience & education</h2></div>
-      <div class="timeline">
-        <article class="timeline-item"><div class="timeline-date">PRESENT</div><div><h3>Website & Mobile Application Lead</h3><p class="company">New Obour City Authority</p><p>Leading the management and maintenance of the authority’s website and mobile application, coordinating requirements, and applying Flutter, Firebase, and REST API integration in production work.</p></div></article>
-        <article class="timeline-item"><div class="timeline-date">2023</div><div><h3>COO & HR Manager</h3><p class="company">Velux Events & Conference Organizing Company</p><p>Oversaw daily operations and event execution while managing teams and coordinating staff across multiple events.</p></div></article>
-        <article class="timeline-item"><div class="timeline-date">2021 – PRESENT</div><div><h3>Freelance Graphic Designer</h3><p class="company">Independent</p><p>Designed brand identities and marketing visuals for local and international clients using Adobe Photoshop and Illustrator.</p></div></article>
-        <article class="timeline-item"><div class="timeline-date">2026</div><div><h3>B.I.S. in Business Information Systems</h3><p class="company">Obour Institute · Graduated 2026</p><p>Focused on databases, analysis, design, management, and the connection between technology and business.</p></div></article>
-      </div>
-    </section>
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="eyebrow">Business Information Systems Graduate | Software Engineer</p>
+          <h1 class="hero-name" data-i18n="name">MARWA GHARIB ALSAYED MOHAMED</h1>
+          <p class="hero-description" data-i18n="summary">
+            I build mobile and web experiences with clean architecture, strong UI, and practical problem-solving.
+          </p>
 
-    <section class="section container skills-section">
-      <div class="section-heading"><span class="section-number">03</span><h2>Skills & toolkit</h2></div>
-      <div class="skills-grid">
-        <div class="skill-category"><h3>Mobile</h3><div class="tags"><span>Flutter</span><span>Dart</span><span>Firebase</span><span>REST APIs</span><span>Provider / BLoC</span></div></div>
-        <div class="skill-category"><h3>Web</h3><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React</span><span>Next.js</span><span>Bootstrap</span></div></div>
-        <div class="skill-category"><h3>Programming</h3><div class="tags"><span>C++</span><span>OOP</span><span>SQL</span><span>Git & GitHub</span><span>Debugging</span></div></div>
-        <div class="skill-category"><h3>Creative</h3><div class="tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span><span>Visual Design</span></div></div>
-      </div>
-    </section>
+          <div class="cta-row">
+            <a href="#projects" class="primary-btn" data-i18n="workBtn">View Projects</a>
+            <a href="mailto:marwansrallh6@gmail.com" class="ghost-btn" data-i18n="contactBtn">Contact Me</a>
+          </div>
 
-    <section class="section container" id="projects">
-      <div class="section-heading"><span class="section-number">04</span><h2>Featured projects</h2></div>
-      <div class="project-grid">
-        <article class="project-card featured"><div class="project-top"><span class="project-icon">✦</span><span>01 / MOBILE APP</span></div><h3>CG.OI — Career Support Platform</h3><p>A full-stack mobile platform designed to support students and graduates with CV guidance, interview preparation, and career matching.</p><div class="tags"><span>Flutter</span><span>Node.js</span><span>Firebase</span><span>REST API</span></div><a href="https://github.com/marwa906/Graduation-project-application" target="_blank" rel="noreferrer">View repository ↗</a></article>
-        <article class="project-card"><div class="project-top"><span class="project-icon">◈</span><span>02 / TRAINING</span></div><h3>Flutter Training Projects</h3><p>Cross-platform mobile applications created during NTI training, with reusable UI components, Firebase services, and practical state management.</p><div class="tags"><span>Flutter</span><span>Dart</span><span>Firebase</span></div><a href="https://github.com/marwa906/nti" target="_blank" rel="noreferrer">View repository ↗</a></article>
-        <article class="project-card"><div class="project-top"><span class="project-icon">▦</span><span>03 / DESIGN</span></div><h3>Brand & Visual Design</h3><p>Creative visual identities and marketing materials designed for organizations and independent clients with a focus on clarity and impact.</p><div class="tags"><span>Figma</span><span>Photoshop</span><span>Illustrator</span></div><a href="mailto:marwansrallh6@gmail.com">Request portfolio ↗</a></article>
-      </div>
-    </section>
+          <div class="mini-links">
+            <a href="https://github.com/marwa906" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:marwansrallh6@gmail.com">Email</a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
 
-    <section class="quote-section container"><p>“Great products happen when thoughtful design meets purposeful technology.”</p></section>
+      <section class="panel about-panel">
+        <div class="panel-head">
+          <span class="panel-icon">✦</span>
+          <h2 data-i18n="aboutTitle">About Me</h2>
+        </div>
 
-    <section class="contact section container" id="contact"><div class="contact-box"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let’s build something meaningful.</h2><p>Whether you have an idea, an opportunity, or simply want to connect, my inbox is always open.</p><a class="button primary" href="mailto:marwansrallh6@gmail.com">Get in touch ↗</a></div></section>
-  </main>
+        <div class="info-grid">
+          <div class="info-card">
+            <h3 data-i18n="missionTitle">Mission</h3>
+            <p data-i18n="missionText">To build useful, scalable, and user-centered digital products that create real impact.</p>
+          </div>
 
-  <footer class="footer container"><span>© 2026 Marwa Gharib Alsayed Mohamed</span><span>Designed & built with intention.</span><a href="#home">Back to top ↑</a></footer>
-  <script src="script.js"></script>
-</body>
+          <div class="info-card">
+            <h3 data-i18n="achievementTitle">Achievement</h3>
+            <p data-i18n="achievementText">Developed and led mobile and web solutions with practical business value and strong UX.</p>
+          </div>
+
+          <div class="info-card">
+            <h3 data-i18n="passionTitle">Passion</h3>
+            <p data-i18n="passionText">Turning complex ideas into clean, elegant, and human-centered experiences.</p>
+          </div>
+        </div>
+
+        <div class="bio-block">
+          <p data-i18n="bio1">
+            I am a Business Information Systems graduate with a focus on database analysis, web/mobile development, and product-minded engineering. I enjoy creating reliable software that balances technical quality with user experience.
+          </p>
+          <p data-i18n="bio2">
+            I work with Flutter, Dart, Firebase, REST APIs, JavaScript, HTML, CSS, and modern front-end tools to build responsive solutions that feel smooth and professional.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel stats-panel">
+        <div class="panel-head">
+          <span class="panel-icon">⚡</span>
+          <h2 data-i18n="statsTitle">Quick Stats & Education</h2>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-label" data-i18n="experienceLabel">Experience</span>
+            <strong data-i18n="experienceText">Front-End Developer | Digital Platforms</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label" data-i18n="educationLabel">Education</span>
+            <strong data-i18n="educationText">BIS in Business Information Systems</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label" data-i18n="roleLabel">Key Role</span>
+            <strong data-i18n="roleText">Full-Stack / Mobile & Web Engineer</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label" data-i18n="problemLabel">Problem Solving</span>
+            <strong data-i18n="problemText">Clean architecture, logic, and UX clarity</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="panel projects-panel">
+        <div class="panel-head">
+          <span class="panel-icon">🚀</span>
+          <h2 data-i18n="projectsTitle">Featured Projects</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-item">
+            <div class="project-title-row">
+              <span class="project-bullet">✦</span>
+              <h3 data-i18n="project1Title">Career Support Platform</h3>
+            </div>
+            <p data-i18n="project1Text">A full-stack mobile platform for guidance, interview preparation, and career matching.</p>
+            <div class="tag-row">
+              <span>Flutter</span>
+              <span>Firebase</span>
+              <span>REST API</span>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <div class="project-title-row">
+              <span class="project-bullet">✦</span>
+              <h3 data-i18n="project2Title">Training Projects</h3>
+            </div>
+            <p data-i18n="project2Text">Cross-platform app interfaces created during intensive learning and practical exercise sessions.</p>
+            <div class="tag-row">
+              <span>Flutter</span>
+              <span>Dart</span>
+              <span>UI/UX</span>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <div class="project-title-row">
+              <span class="project-bullet">✦</span>
+              <h3 data-i18n="project3Title">Brand & Graphic Design</h3>
+            </div>
+            <p data-i18n="project3Text">Visual identity and digital branding work designed for impact and clarity.</p>
+            <div class="tag-row">
+              <span>Figma</span>
+              <span>Photoshop</span>
+              <span>Illustrator</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel dashboard-panel">
+        <div class="panel-head">
+          <span class="panel-icon">📊</span>
+          <h2 data-i18n="dashboardTitle">GitHub Insights</h2>
+        </div>
+
+        <div class="dashboard-grid">
+          <div class="insight-card">
+            <h3 data-i18n="langTitle">Programming Languages</h3>
+            <div class="bar-wrap">
+              <span class="bar html" style="width: 62%"></span>
+              <span class="bar css" style="width: 19%"></span>
+              <span class="bar js" style="width: 12%"></span>
+              <span class="bar dart" style="width: 7%"></span>
+            </div>
+            <ul class="legend">
+              <li><span class="dot html-dot"></span> HTML</li>
+              <li><span class="dot css-dot"></span> CSS</li>
+              <li><span class="dot js-dot"></span> JavaScript</li>
+              <li><span class="dot dart-dot"></span> Dart</li>
+            </ul>
+          </div>
+
+          <div class="insight-card">
+            <h3 data-i18n="statsSummaryTitle">Profile Summary</h3>
+            <div class="summary-list">
+              <div><span data-i18n="totalStars">Total stars</span><strong>0</strong></div>
+              <div><span data-i18n="commits">Total commits</span><strong>33</strong></div>
+              <div><span data-i18n="prs">Total PRs</span><strong>4</strong></div>
+              <div><span data-i18n="issues">Total issues</span><strong>0</strong></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
